@@ -6,6 +6,7 @@
 	<title>My Personal Stylist</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/fontawesome.min.css">
 </head>
 <html>
 	<div id="container">
@@ -14,7 +15,7 @@
 			<span class="auteur"><b>BY MARIE</b></span>
 			
 		</div>
-
+		<br>
 		<nav>
 			<div class="nav-wrapper white">
 			
@@ -24,6 +25,7 @@
 				<li><a class='black-text darken-1' href="collapsible.html">SERVICES</a></li>
 				<li><a class='black-text darken-1' href="collapsible.html">TEMOIGNAGES</a></li>
 				<li><a class='black-text darken-1' href="collapsible.html">CONTACT</a></li>
+				<li><a><i class='fa fa-home'></i></a></li>
 			</ul>
 			</div>
 		</nav>
