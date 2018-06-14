@@ -1,0 +1,26 @@
+body{
+	font-family: montserrat;
+}
+#container{
+	width: 75%;
+	margin : auto;
+}
+#logo{
+	width: 50%;
+	margin:auto;
+	text-align: center;
+}
+#logo span{
+	font-size: 30px;
+}
+#logo .auteur{
+	font-size: 15px;
+
+}
+#menu{
+	display: inline-block;
+}
+.my-menu li{
+	display: inline-block;
+	margin : 0 10px;
+}
