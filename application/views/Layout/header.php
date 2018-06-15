@@ -6,25 +6,29 @@
 	<title>My Personal Stylist</title>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/fontawesome.min.css">
 </head>
 <html>
 	<div id="container">
-	 <div id="logo">
-	 	<span>MY<b>PERSONAL</b>STYLIST</span><br>
-	 	<span class="auteur"><b>BY MARIE</b></span>
-	 	
-	 </div>
+		<div id="logo">
+			<span>MY<b>PERSONAL</b>STYLIST</span><br>
+			<span class="auteur"><b>BY MARIE</b></span>
+			
+		</div>
+		<br>
+		<nav>
+			<div class="nav-wrapper white">
+			
+			<ul id="nav-mobile" class="right hide-on-med-and-down ">
+				<li><a class='black-text darken-1' href="sass.html">ACCUEIL</a></li>
+				<li><a class='black-text darken-1' href="badges.html">A PROPOS</a></li>
+				<li><a class='black-text darken-1' href="collapsible.html">SERVICES</a></li>
+				<li><a class='black-text darken-1' href="collapsible.html">TEMOIGNAGES</a></li>
+				<li><a class='black-text darken-1' href="collapsible.html">CONTACT</a></li>
+				<li><a><i class='fa fa-home'></i></a></li>
+			</ul>
+			</div>
+		</nav>
 
-	 <div id="menu">
-	 	<ul class="my-menu">
-	 		<li>ACCUEIL</li>
-	 		<li>A PROPOS</li>
-	 		<li>SERVICES</li>
-	 		<li>TEMOIGNAGES</li>
-	 		<li>CONTACT</li>
-	 		<li></li>
-	 	</ul>
-	 	
-	 </div>
 	</div>
 </html>
